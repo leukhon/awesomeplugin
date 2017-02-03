@@ -1,15 +1,15 @@
 <?php
 /**
-* Plugin Name: Wolfcode
-* Plugin URI: https://hispawolf.com/descargas/repositorio
-* Description: Este plugin permite añadir varias funcionalidades para mejorar la instalación de tu web en Wordpress
+* Plugin Name: Awesome Plugin
+* Plugin URI: https://github.com/lobohispano/awesomeplugin
+* Description: Este plugin permite aÃ±adir varias funcionalidades para mejorar la instalaciÃ³n de tu web en Wordpress
 * Version: 1.1
 * Author: Volk
-* Author URI: https://hispawolf.com
-* License: GPL2
+* Author URI: https://hispawolf.com/descargas/repositorio
+* License: GPL3
 */
 
-/***COPYRIGHT DINÁMICO***/
+/***COPYRIGHT DINÃMICO***/
 if( !is_admin()){
    wp_deregister_script('jquery'); 
    wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"), false, '1.3.2'); 
@@ -29,32 +29,32 @@ function iw_copyright(){
 	}
 	return $output;
 }
-/*OCULTACIÓN DE PÁGINAS DE WORDPRESS*/
+/*OCULTACIÃ“N DE PÃGINAS DE WORDPRESS*/
 
-/*Se ocultan las páginas Categoría, Etiqueta y Autor*/
+/*Se ocultan las pÃ¡ginas CategorÃ­a, Etiqueta y Autor*/
 add_action('template_redirect', 'aw_remove_wp_archives'); 
 
 /*Esconde los archivos */
 function aw_remove_wp_archives(){  
 
-//Si estamos en el archivo de la categoría o etiqueta o fecha o autor  
+//Si estamos en el archivo de la categorÃ­a o etiqueta o fecha o autor  
 if( is_category() || is_tag() || is_author() ) {    global $wp_query;
 $wp_query->set_404(); 
-//definimos una página de 404 no encontrado  
+//definimos una pÃ¡gina de 404 no encontrado  
 }}
 
-/*ACTIVACIÓN DE TODOS LOS BOTONES DEL EDITOR VISUAL DE WP*/
+/*ACTIVACIÃ“N DE TODOS LOS BOTONES DEL EDITOR VISUAL DE WP*/
 
 function todos_los_botones($buttons) {
 	$buttons[] = 'fontselect';  //Selector de tipo de fuente
-	$buttons[] = 'fontsizeselect'; //Selector de tamaño de fuente
-	$buttons[] = 'styleselect';  //Selector de estilos de párrafo mucho más amplio
-	$buttons[] = 'backcolor';  //Color de fondo de párrafo
+	$buttons[] = 'fontsizeselect'; //Selector de tamaÃ±o de fuente
+	$buttons[] = 'styleselect';  //Selector de estilos de pÃ¡rrafo mucho mÃ¡s amplio
+	$buttons[] = 'backcolor';  //Color de fondo de pÃ¡rrafo
 	$buttons[] = 'newdocument';  //Nuevo documento inline
 	$buttons[] = 'cut';  //Cortar texto
 	$buttons[] = 'copy';  //Copiar texto
 	$buttons[] = 'charmap';  //Mapa de caracteres
-	$buttons[] = 'hr'; //Línea horizontal
+	$buttons[] = 'hr'; //LÃ­nea horizontal
 	$buttons[] = 'visualaid'; //Ayudas visuales del editor
 return $buttons;}
 
