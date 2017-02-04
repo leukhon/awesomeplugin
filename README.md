@@ -16,7 +16,7 @@ Puedes ver los cambios en mi página web: https://hispawolf.com/descargas/reposi
 Awesome Plguin 
 Is a multi-purpose plugin that allows the user to complement their WordPress installation with special functions such as: dynamic copyright in the footer, hide Category, Label and Author pages, custom greeting on the desktop, hide login error and add security headers
 
-# ¿How to install?
+# How to install?
 To install this plugin, do instructions in the webpage. It's very easy
 http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/
 
