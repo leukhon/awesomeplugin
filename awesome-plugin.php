@@ -1,18 +1,18 @@
 <?php
 /**
 * Plugin Name: Awesome Plugin
-* Plugin URI: https://github.com/lobohispano/awesomeplugin
+* Plugin URI: https://github.com/tigrehispano/awesomeplugin
 * Description: Este plugin permite añadir varias funcionalidades para mejorar la instalación de tu web en Wordpress
-* Version: 1.1
-* Author: Volk
-* Author URI: https://hispawolf.com/descargas/repositorio
+* Version: 1.2
+* Author: Tigre
+* Author URI: https://tigre.pw/descargas/repositorio
 * License: GPL3
 */
 
 /***COPYRIGHT DINÁMICO***/
 if( !is_admin()){
    wp_deregister_script('jquery'); 
-   wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"), false, '1.3.2'); 
+   wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"), false, '3.2.1'); 
    wp_enqueue_script('jquery');
 }
 
