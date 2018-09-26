@@ -6,10 +6,10 @@ Para instalar este plugin simplemente sigue las instrucciones que hay en esta p�
 http://wpavanzado.com/como-instalar-un-plugin-en-wordpress/
 
 # Cambios en el plugin
-Puedes ver los cambios en mi página web: https://tigrerian.com/descargas/repositorio
+Puedes ver los cambios en mi página web: https://darkie.pw/repositorio
 
 # Contacto
-Para contactar sobre cualquier error que puedas encontrar o si tienes sugerencias para mejorar este plugin, utiliza este formulario: https://tigrerian.com/contacto
+Para contactar sobre cualquier error que puedas encontrar o si tienes sugerencias para mejorar este plugin, utiliza este formulario: https://darkie.pw/contacto
 Indicad, por favor, hacia quien va dirigido y el motivo. Se ruega que cualquier error sea detallado lo mas posible (pasos a seguir, capturas, etc.)
 
 # Awesome Plugin - English
@@ -20,8 +20,8 @@ To install this plugin, do instructions in the webpage. It's very easy
 http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/
 
 # Changelog
-You can see changes in the plugin at: https://tigrerian.com/descargas/repositorio (only Spanish)
+You can see changes in the plugin at: https://darkie.pw/repositorio (only Spanish)
 
 # Contact
-Contact me for errors or feedback: https://tigrerian.com/contacto
+Contact me for errors or feedback: https://darkie.pw/contacto
 Indicate who is the destinatary and subject. Remember describe the error with detail: steps, screenshots, etc.
